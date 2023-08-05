@@ -1,5 +1,5 @@
 from flask import Flask
-from app.routes import bp as home
+from app.routes.home import bp as home
 
 def create_app(test_config=None):
   # set up app config
